@@ -26,30 +26,28 @@ main {
 	width: 180px;
 	background: red;
 	margin: auto;
-	padding-top: 15px;
+	position: relative;
 }
 
 .class-1-1 {
-	width: 150px;
-	height: 150px;
 	background: gray;
-	margin: auto;
-	padding-top: 15px;
 }
 
 .class-1-2 {
-	width: 120px;
-	height: 120px;
 	background: brown;
-	margin: auto;
-	padding-top: 15px;
 }
 
 .class-1-3 {
-	width: 90px;
-	height: 90px;
 	background: violet;
-	margin: auto;
+}
+.class-1-1,
+.class-1-2,
+.class-1-3 {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
 }
 
 .class-2 {
@@ -61,21 +59,24 @@ main {
 	padding-top: 10px;
 	padding-left: 10px;
 }
+
 .class-2-1 {
 	display: block;
 	margin: auto;
-	width: 45px;
-	height: 45px;
-	background: yellow;
 }
 
 .class-2-2,
 .class-2-3 {
 	display: inline-block;
+	margin: 20px 20px 0 0;
+}
+
+.class-2-1,
+.class-2-2,
+.class-2-3 {
 	width: 45px;
 	height: 45px;
 	background: yellow;
-	margin: 20px 20px 0 0;
 }
 
 .class-3 {
