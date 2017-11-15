@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f0f0f0;
+}
+
+main {
+	display: block;
+	width: 600px;
+	height: 600px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	box-shadow:  0 0 20px 2px rgba(0, 0, 0, .3);
+	background: rgba(0, 0, 0, .1);
+	padding: 15px;
+}
+
+.class-1 {
+	height: 180px;
+	width: 180px;
+	background: red;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.class-1-1 {
+	width: 150px;
+	height: 150px;
+	background: gray;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.class-1-2 {
+	width: 120px;
+	height: 120px;
+	background: brown;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.class-1-3 {
+	width: 90px;
+	height: 90px;
+	background: violet;
+	margin: auto;
+}
+
+.class-2 {
+	width: 570px;
+	height: 180px;
+	margin: 15px 0;
+	background: blue;
+	border:  1px solid transparent;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.class-2-1 {
+	display: block;
+	margin: auto;
+	width: 45px;
+	height: 45px;
+	background: yellow;
+}
+
+.class-2-2,
+.class-2-3 {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: yellow;
+	margin: 20px 20px 0 0;
+}
+
+.class-3 {
+	width: 570px;
+	height: 180px;
+	background: green;
+	border:  1px solid transparent;
+	text-align: center;
+}
+
+.class-3-inner {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: yellow;
+	margin: 10px;
+}
